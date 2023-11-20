@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Views</string>
+    <string name="austria">Austria</string>
+    <string name="poland">Poland</string>
 </resources>
