@@ -2,4 +2,11 @@
     <string name="app_name">Views</string>
     <string name="austria">Austria</string>
     <string name="poland">Poland</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="with_library">with library</string>
+    <string name="without_library">without library</string>
+    <string name="put_your_link_here">Put your link here</string>
+    <string name="image">image</string>
+    <string name="load">Load</string>
 </resources>
