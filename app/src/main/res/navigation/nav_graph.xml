@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tasks">
+
+    <fragment
+        android:id="@+id/flags2"
+        android:name="com.example.views.flags.Flags"
+        android:label="Flags"
+        tools:layout="@layout/fragment_flags">
+        <action
+            android:id="@+id/action_flags2_to_austria2"
+            app:destination="@id/austria2" />
+        <action
+            android:id="@+id/action_flags2_to_poland2"
+            app:destination="@id/poland2" />
+        <action
+            android:id="@+id/action_flags2_to_italy2"
+            app:destination="@id/italy2" />
+        <action
+            android:id="@+id/action_flags2_to_denmark2"
+            app:destination="@id/denmark2" />
+        <action
+            android:id="@+id/action_flags2_to_colombia2"
+            app:destination="@id/colombia2" />
+        <action
+            android:id="@+id/action_flags2_to_madagascar2"
+            app:destination="@id/madagascar2" />
+        <action
+            android:id="@+id/action_flags2_to_switzerland2"
+            app:destination="@id/switzerland2" />
+        <action
+            android:id="@+id/action_flags2_to_thailand2"
+            app:destination="@id/thailand2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasks"
+        android:name="com.example.views.Tasks"
+        android:label="Tasks"
+        tools:layout="@layout/fragment_tasks">
+        <action
+            android:id="@+id/action_tasks_to_flags2"
+            app:destination="@id/flags2" />
+    </fragment>
+    <fragment
+        android:id="@+id/austria2"
+        android:name="com.example.views.flags.Austria"
+        android:label="fragment_austria"
+        tools:layout="@layout/fragment_austria" />
+    <fragment
+        android:id="@+id/poland2"
+        android:name="com.example.views.flags.Poland"
+        android:label="Poland"
+        tools:layout="@layout/fragment_poland" />
+    <fragment
+        android:id="@+id/italy2"
+        android:name="com.example.views.flags.Italy"
+        android:label="Italy"
+        tools:layout="@layout/fragment_italy" />
+    <fragment
+        android:id="@+id/colombia2"
+        android:name="com.example.views.flags.Colombia"
+        android:label="fragment_colombia"
+        tools:layout="@layout/fragment_colombia" />
+    <fragment
+        android:id="@+id/denmark2"
+        android:name="com.example.views.flags.Denmark"
+        android:label="fragment_denmark"
+        tools:layout="@layout/fragment_denmark" />
+    <fragment
+        android:id="@+id/madagascar2"
+        android:name="com.example.views.flags.Madagascar"
+        android:label="fragment_madagascar"
+        tools:layout="@layout/fragment_madagascar" />
+    <fragment
+        android:id="@+id/switzerland2"
+        android:name="com.example.views.flags.Switzerland"
+        android:label="fragment_switzerland"
+        tools:layout="@layout/fragment_switzerland" />
+    <fragment
+        android:id="@+id/thailand2"
+        android:name="com.example.views.flags.Thailand"
+        android:label="fragment_thailand"
+        tools:layout="@layout/fragment_thailand" />
+
+</navigation>
